@@ -4,12 +4,14 @@
 
 ## Overview
 <p><i>Wok Asian Cuisine</i> is a fictional Asian restaurant website.<br>
-This project demonstrates my understanding of basic HTML and CSS shown through a responsive layout.</p>
+This project demonstrates my understanding of basic HTML5, CSS3, responsive web design, and structured page layouts.</p>
 
 ## Features
 <ul>
-       <li>Responsive layout</li>
-       <li>Stock imagery</li>
+       <li>Responsive layout.</li>
+       <li>Contact form with radio button selections.</li>
+       <li>Multi-section landing page.</li>
+       <li>Stock imagery.</li>
 </ul>
 
 ## Technologies Used
@@ -28,4 +30,15 @@ This project demonstrates my understanding of basic HTML and CSS shown through a
 
 ## What I learned
 
-<p>This project strengthened my basic understanding of responsive web design.</p>
+<p>This project strengthened my understanding of responsive layouts, form creation, CSS positioning, page organization, and semantic HTML.</p>
+
+## Future Improvments
+
+<p>Potential enhancements include:</p>
+<ul>
+       <li>Accessibility improvments.</li>
+       <li>Additional animations.</li>
+       <li>More responsive breakpoints.</li>
+       <li>JavaScript functionality.</li>
+       <li>Improved user interactions.</li>
+</ul>
