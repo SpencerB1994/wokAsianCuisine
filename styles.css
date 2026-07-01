@@ -215,6 +215,7 @@ section{
 #catering, #contact{
     width: 100%;
     margin: 2rem auto 0 auto;
+    padding: 0px 10px 0px 10px;
 }
 
 p{
@@ -236,7 +237,7 @@ form{
 
 input, label, select, textarea{
     display: block;
-    width: 94%;
+    width: 80%;
     margin: 0 auto;
     color: var(--cream);
 }
