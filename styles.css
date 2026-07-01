@@ -188,12 +188,12 @@ img{
     width: 100%;
 }
 
-#hero{
+#hero {
     max-width: 1400px;
     margin: 1rem auto;
 }
 
-main a{
+main a {
     background-color: var(--cream);
     color: var(--sage-green);
     text-decoration: none;
@@ -206,7 +206,7 @@ main a:hover {
     color: var(--cream);
 }
 
-section{
+section {
     background-color: var(--sage-green);
     padding: 2rem 0;
     margin: 1rem auto;
@@ -217,7 +217,7 @@ section{
     margin: 2rem auto 0 auto;
 }
 
-p{
+p {
     font-size: 1.1rem;
     line-height: 1.5rem;
     padding: 1rem;
@@ -230,7 +230,7 @@ main p, label, input, legend{
     font-size: 1.15rem;
 }
 
-form{
+form {
     margin: 0 auto;
 }
 
@@ -241,14 +241,22 @@ input, label, select, textarea{
     color: var(--cream);
 }
 
+select option {
+    color: var(--sage-green);
+}
+
+#myState {
+    color: var(--sage-green);
+    font-family: var(--body-fonts)
+}
+
 label{
     margin-bottom: 5px;
     margin-top: 20px;
 }
 
 input[type="radio"] ~ label {
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin: 10px 0px 5px 0px;
 }
 
 input[type="radio"] {
@@ -267,7 +275,6 @@ input[type=text], input[type=email], input[type=tel]{
 select{
     height: 2.5rem;
     width: 82%;
-    border: 2px solid var(--light-green);
 }
 
 fieldset{
