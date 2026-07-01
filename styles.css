@@ -241,6 +241,11 @@ input, label, select, textarea{
     color: var(--cream);
 }
 
+select {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 select option {
     color: var(--sage-green);
 }
