@@ -239,6 +239,7 @@ input, label, select, textarea{
     width: 80%;
     margin: 0 auto;
     color: var(--cream);
+    border-radius: 0;
 }
 
 select {
@@ -297,9 +298,7 @@ fieldset legend{
     padding-bottom: 10px;
 }
 
-input[type=radio]{
-    margin-bottom: 0.25rem
-}
+
 
 fieldset label{
     margin-top: 0;
@@ -430,12 +429,12 @@ nav h2 {
         margin-bottom: 0px;
     }
 
-    #hero, #contact, h2, #catering{
-        grid-column: 1/-1;
+    #hero, #contact, h2, #catering {
+        grid-column: 1/-1; 
         margin: 0 auto;
     }
 
-     main .btnLink{
+     main .btnLink {
         grid-column: 1/-1;
         margin-bottom: 1.5rem;
         margin-top: 0px;
@@ -443,23 +442,27 @@ nav h2 {
         margin-right: auto;
      }
 
-     section{
+     section {
         margin: 0;
      }
 
-     form{
+     form {
         margin: 0 auto;
      }
 
-     form div{
+     form div {
         padding: 0.5rem;
      }
 
-     input, textarea, select{
+     input, textarea, select {
         margin: 0 auto;
      }
 
-     fieldset{
+     #myState {
+        width: 81%;
+     }
+
+     fieldset {
         grid-template-columns: 1fr 8fr 1fr 8fr;
         margin-left: auto;
         margin-right: auto;
@@ -467,15 +470,15 @@ nav h2 {
         margin-bottom: 5px;
      }
 
-     legend{
+     legend {
         margin-bottom: 0.75rem;
      }
 
-     fieldset input:first-of-type{
+     fieldset input:first-of-type {
         margin-left: 1rem;
      }
 
-     #mySubmit{
+     #mySubmit {
         grid-column: 1/-1;
         margin: 0 auto;
         cursor: pointer;
