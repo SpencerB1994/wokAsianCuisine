@@ -266,7 +266,8 @@ input[type=text], input[type=email], input[type=tel]{
 
 select{
     height: 2.5rem;
-    width: 95%;
+    width: 82%;
+    border: 2px solid var(--light-green);
 }
 
 fieldset{
