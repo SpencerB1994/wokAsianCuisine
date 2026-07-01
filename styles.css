@@ -266,7 +266,7 @@ input[type="radio"] ~ label {
 }
 
 input[type="radio"] {
-    margin: 10px 0px;
+    margin: 10px 0px 10px 60px;
 }
 
 input, select, textarea{
@@ -297,8 +297,6 @@ fieldset legend{
     color: var(--cream);
     padding-bottom: 10px;
 }
-
-
 
 fieldset label{
     margin-top: 0;
@@ -392,6 +390,10 @@ nav h2 {
         margin: 0 auto;
     }
 
+    input[type="radio"] {
+    margin: 10px 0px 10px 0px;
+    }
+
     select {
         margin: 0 auto;
     }
@@ -474,10 +476,6 @@ nav h2 {
         margin-bottom: 0.75rem;
      }
 
-     fieldset input:first-of-type {
-        margin-left: 1rem;
-     }
-
      #mySubmit {
         grid-column: 1/-1;
         margin: 0 auto;
@@ -511,4 +509,12 @@ nav h2 {
         left: 0px;
         position: absolute;
      }
+
+     input[type="radio"] {
+    margin: 10px 0px 10px 0px;
+    }
+
+    input[type="prefPhone"] {
+    margin: 10px 0px 10px 0px;
+    }
 }
